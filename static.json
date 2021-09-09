@@ -1,4 +1,12 @@
 {
+  "routes": {
+    "/login/*": "/login/",
+    "/**": "index.html"
+  }
+}
+
+
+{
   "headers": {
     "/login*": {
       "Content-Type": "multipart/form-data; boundary=something",
