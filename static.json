@@ -1,15 +1,7 @@
 {
-  "routes": {
-    "/login/*": "/login/",
-    "/**": "index.html"
-  }
-}
-
-
-{
   "headers": {
     "/login*": {
-      "Content-Type": "multipart/form-data; boundary=something",
+      "Content-Type": "text/plain; charset=UTF-8",
       "Access-Control-Allow-Origin": "*"
     }
 
